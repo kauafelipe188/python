@@ -87,8 +87,10 @@
 #     print(numero)
 
 # atividade17
-nome = str(input("insira seu nome: "))
-porção = 5.90
-qntd = int(input("insira uma quantidade de porções: "))
-if nome != "jerry" :
-    print(qntd * porção)
+# nome = str(input("insira seu nome: "))
+# porção = 5.90
+# qntd = int(input("insira uma quantidade de porções: "))
+# if nome != "jerry" :
+#     print(qntd * porção)
+
+#atividade18
