@@ -55,26 +55,40 @@
 # dolar = int(valor / 5.51)
 # print(f"o valor em dolar é {dolar} dolares")
 
-#atividade11
+# atividade11
 # capital = int(input("digite o valor do capital: "))
 # taxa = float(input("digite a taxa de juros "))
 # tempo = int(input("digite o tempo em anos: "))
 # print(f"O valor do juros é {capital * taxa * tempo} reais")
 
-#atividade12
+# atividade12
 # numero1 = int(input("escreva o primeiro numero: "))
 # numero2 = int(input("escreva o segundo numero: "))
 # numero3 = int(input("escreva o terceiro numero: "))
 # print(f"a media dos 3 numeros é :{(numero1 + numero2 + numero3) / 3}")
 
-#atividade13
+# atividade13
 # altura = float(input("coloque a altura: "))
 # largura = float(input("coloque a largura: "))
 # print(f"o valor da area é {altura * largura} metros quadrados, e o perimetro é {2 *(largura + altura)}")
 
-#atividade14
+# atividade14
 # celsius = float(input("temperatura em graus Celsius: "))
 # fahrenheit = (celsius * 9/5) + 32
 # print(f"temperatura em Fahrenheit é: {fahrenheit:.2f}°F")
 
-#atividade15
+# atividade15
+
+# atividade16
+# numero = int(input("digite um numero: "))
+# if numero < 0:
+#     print(numero * -1)
+# else: 
+#     print(numero)
+
+# atividade17
+nome = str(input("insira seu nome: "))
+porção = 5.90
+qntd = int(input("insira uma quantidade de porções: "))
+if nome != "jerry" :
+    print(qntd * porção)

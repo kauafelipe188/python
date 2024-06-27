@@ -17,6 +17,7 @@
 #resultado2 = 30
 #print(f"O resultado é {resultado}, e a conta dos dois valores é  {resultado2 + resultado}")
 
+
 #nome = "kaua felipe"
 #idade = 17
 #skill1 = "python"
@@ -29,12 +30,17 @@
 #maximo = "∞"
 #print(f"Olá, eu sou {nome} e tenho {idade} anos. Minhas habilidades são {skill1} no nível {nivel1}, {skill2} no nível {nivel2} e {skill3} no nível {nivel3}. Procuro um emprego que pague entre #{minimo} e {maximo} reais por mês.")
 
+
 #ano = int(input("coloque seu ano de nascimento aqui: "))
 #print(f"ao final de 2024 voce ter {2024 - ano} anos")
 
-altura = float(input("qual a sua altura?"))
-peso = float(input("qual o seu peso?"))
 
-imc = peso / (altura / 100) ** 2
+# altura = float(input("qual a sua altura?"))
+# peso = float(input("qual o seu peso?"))
+# imc = peso / (altura / 100) ** 2
+# print(f"seu imc é {imc:.2f}")
 
-print(f"seu imc é {imc:.2f}")
+
+# numero = int(input("digite um numero: "))
+# if numero == 1984:
+#     print("Orwell")
