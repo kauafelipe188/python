@@ -93,4 +93,124 @@
 # if nome != "jerry" :
 #     print(qntd * porção)
 
-#atividade18
+# # atividade18
+# numero = int(input("digite um numero: "))
+# if numero < 1000:
+#     print("o numero é menor que 1000")
+# if numero < 100:
+#     print("o numero é menor que 100")    
+# if numero < 10:
+#     print("o numero é menor que 10") 
+# if numero > 1000:
+#     print("Obrigado!")
+
+#atividade19
+# nome = "kaua"
+# cidade = "curitiba"
+# estado = "parana"
+# cep = 81234567
+# nome2 = str(input("digite o nome: "))
+# if nome2 == nome:
+#     print(nome, cidade, estado, cep)
+# if nome2 != nome:
+#     print("esse usuario nao existe em nossa base de dados")
+
+# atividade20
+# numero1 = int(input("escreva um numero: "))
+# numero2 = int(input("escreva outro numero numero: "))
+# sinal = input("escolha a operação: ")
+# op1 = "*"
+# op2 = "-"
+# op3 = "+"
+# if sinal == op1:
+#     print(numero1 * numero2)
+# if sinal == op2:
+#     print(numero1 - numero2)
+# if sinal == op3:
+#     print(numero1 + numero2)
+
+# atividade21
+# temp = float(input("coloque a temperatura: "))
+# celcius = (temp - 32) / 1.8
+# if celcius > 0:
+#     print(f"{celcius:.2f}° celcius")
+# if celcius < 0: 
+#     print("Brr! Está frio aqui!")
+
+# atividade22
+# salariohr = float(input("digite o valor da hora: "))
+# qntdhr = float(input("digite a qntd de hrs: "))
+# dia = input("digite o dia da semana: ")
+# salariotot = salariohr * qntdhr
+# if dia == "domingo":
+#     print(salariotot * 2)
+
+#atividade23
+# pntsnocartão = int(input("Digite a quantidade de pontos"))
+# if pntsnocartão < 100:
+#     taxabonus = 0.10
+# if pntsnocartão > 100:
+#     taxabonus = 0.15
+# bonus = pntsnocartão * taxabonus
+# print(f"o bonus é de: {bonus:.2f} pontos")   
+
+#atividade24
+
+# #atividade25
+# media = float(input("digite a nota: "))
+# if media < 7:
+#     print("aprovado")
+# else:
+#     print("reprovado")
+
+# #atividade26
+# idade = int(input("digite a idade: "))
+# if idade > 18:
+#     print("de maior")
+# else:
+#     print("de menor")
+
+# #atividade27
+# valorgasto = int(input("Digite o valor gasto: "))
+# if valorgasto < 50:
+#     print("classe economica")
+# if valorgasto > 50 and valorgasto < 100:
+#     print("classe intemediaria")
+# else:
+#     print("classe executiva")
+
+# atividade28
+# idade = int(input("digite a idade: "))
+# if idade >= 16:
+#     print("pode votar")
+# else:
+#     print("não pode votar")
+
+# #atividade29
+# mesdoano = int(input("digite o numero do mes: "))
+# if mesdoano == 1:
+#     print("janeiro")
+# if mesdoano == 2:
+#     print("fevereiro")
+# if mesdoano == 3:
+#     print("março")
+# if mesdoano == 4:
+#     print("abril")
+# if mesdoano == 5:
+#     print("maio")
+# if mesdoano == 6:
+#     print("junho")
+# if mesdoano == 7:
+#     print("julho")
+# if mesdoano == 8:
+#     print("agosto")
+# if mesdoano == 9:
+#     print("setembro")
+# if mesdoano == 10:
+#     print("outubro")
+# if mesdoano == 11:
+#     print("novembro")
+# if mesdoano == 12:
+#     print("dezembro")
+# else:
+#     print("mes invalido")
