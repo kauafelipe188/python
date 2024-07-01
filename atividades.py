@@ -104,7 +104,7 @@
 # if numero > 1000:
 #     print("Obrigado!")
 
-#atividade19
+# atividade19
 # nome = "kaua"
 # cidade = "curitiba"
 # estado = "parana"
@@ -145,7 +145,7 @@
 # if dia == "domingo":
 #     print(salariotot * 2)
 
-#atividade23
+# atividade23
 # pntsnocartão = int(input("Digite a quantidade de pontos"))
 # if pntsnocartão < 100:
 #     taxabonus = 0.10
@@ -154,7 +154,7 @@
 # bonus = pntsnocartão * taxabonus
 # print(f"o bonus é de: {bonus:.2f} pontos")   
 
-#atividade24
+# atividade24
 
 # #atividade25
 # media = float(input("digite a nota: "))
@@ -214,3 +214,63 @@
 #     print("dezembro")
 # else:
 #     print("mes invalido")
+
+# atividade30
+# numero1 = int(input("escreva um numero: "))
+# numero2 = int(input("escreva outro numero: "))
+# if numero1 > numero2:
+#     print("o primeiro numero é maior")
+# elif numero1 < numero1:
+#     print("o segundo numero é maior")
+# else:
+#     print("os numeros são iguais")
+
+# atividade31
+# idade1 = int(input("escreva a idade da primeira pessoa: "))
+# nome1 = str(input("escreva o nome da primeira pessoa"))
+# idade2 = int(input("escreva a idade da segunda pessoa: "))
+# nome2 = str(input("escreva o nome da segunda pessoa"))
+# if idade1 > idade2:
+#     print("a pessoa mais velha é", nome1)
+# elif idade1 < idade2:
+#     print("a pessoa mais velha é", nome2)
+# else:
+#     print("as pessoas tem a mesma idade")
+
+# atividade32
+# nao teve
+
+# atividade33
+# idade1 = int(input("escreva a idade da pessoa: "))
+# if idade1 <= 5 or idade1 > 105 :
+#     print("a pessoa nao consegue digitar🤨")
+
+# atividade34
+# nome = str(input("escreva um nome: "))
+# if nome == "huguinho" or "zezinho" or "luisiznho":
+#     print("você é um dos 3 sobrinhos do pato donald")
+# elif nome == "chiquinho" or "francisquinho":
+#     print("você é um dos 2 sobrinhos do mickey mouse")
+# else:
+#     print("você não é ngm"}
+
+# atividade35
+nota = float(input("Escreva sua nota: "))
+if nota  <= 0 :
+    print("impossivel")
+elif nota > 0 and nota <= 49:
+    print("reprovado")
+elif nota > 50 and nota <= 59:
+    print(1)
+elif nota > 60 and nota <= 69:
+    print(2)
+elif nota > 70 and nota <= 79:
+    print(3)
+elif nota > 80 and nota <= 89:
+    print(4)
+elif nota > 90 and nota <= 100:
+    print(5)
+elif nota > 90 and nota <= 100:
+    print("impossivel")
+else:
+    print("adicione uma nota certo animal")

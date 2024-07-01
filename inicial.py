@@ -44,3 +44,14 @@
 # numero = int(input("digite um numero: "))
 # if numero == 1984:
 #     print("Orwell")
+
+#and
+numero = int(input("numero: "))
+if numero >= 5 and numero <= 8:
+    print("numero entre 5 e 8")
+
+
+#or
+numero = int(input("numero: "))
+if numero < 5 or numero > 8:
+    print("numero não esta entre 5 e 8")
