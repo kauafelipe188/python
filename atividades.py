@@ -255,22 +255,40 @@
 #     print("você não é ngm"}
 
 # atividade35
-nota = float(input("Escreva sua nota: "))
-if nota  <= 0 :
-    print("impossivel")
-elif nota > 0 and nota <= 49:
-    print("reprovado")
-elif nota > 50 and nota <= 59:
-    print(1)
-elif nota > 60 and nota <= 69:
-    print(2)
-elif nota > 70 and nota <= 79:
-    print(3)
-elif nota > 80 and nota <= 89:
-    print(4)
-elif nota > 90 and nota <= 100:
-    print(5)
-elif nota > 90 and nota <= 100:
-    print("impossivel")
-else:
-    print("adicione uma nota certo animal")
+# nota = float(input("Escreva sua nota: "))
+# if nota  <= 0 :
+#     print("impossivel")
+# elif nota > 0 and nota <= 49:
+#     print("reprovado")
+# elif nota > 50 and nota <= 59:
+#     print(1)
+# elif nota > 60 and nota <= 69:
+#     print(2)
+# elif nota > 70 and nota <= 79:
+#     print(3)
+# elif nota > 80 and nota <= 89:
+#     print(4)
+# elif nota > 90 and nota <= 100:
+#     print(5)
+# elif nota > 90 and nota <= 100:
+#     print("impossivel")
+# else:
+#     print("adicione uma nota certo animal")
+
+# atividade36
+# numero = int(input("digite um numero: "))
+# if numero % 3 == 0:
+#     print("fizz")
+# elif numero % 5 == 0:
+#     print("buzz")
+# else:
+#     print("fizzbuzz")
+
+# atividade37
+# ano = int(input("digite o ano: "))
+# if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
+#     print("ano bissexto")
+# else:
+#     print("nao é ano bissexto")
+
+# atividade38
