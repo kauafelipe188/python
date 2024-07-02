@@ -45,13 +45,28 @@
 # if numero == 1984:
 #     print("Orwell")
 
-#and
-numero = int(input("numero: "))
-if numero >= 5 and numero <= 8:
-    print("numero entre 5 e 8")
+# #and
+# numero = int(input("numero: "))
+# if numero >= 5 and numero <= 8:
+#     print("numero entre 5 e 8")
 
 
-#or
-numero = int(input("numero: "))
-if numero < 5 or numero > 8:
-    print("numero não esta entre 5 e 8")
+# #or
+# numero = int(input("numero: "))
+# if numero < 5 or numero > 8:
+#     print("numero não esta entre 5 e 8")
+
+#while
+# numero = int(input("digite um numero: . ou digite -1 para parar"))
+# while numero == -1:
+# break
+# print(numero ** 2)
+# print ("progama encerrado, obrigado")
+
+while True:
+    codigo = input("Por favor insira o pin: ")
+    if codigo == "1234":
+        break
+    print("errado, tente de novo")
+
+print("PIN correto, obrigado")

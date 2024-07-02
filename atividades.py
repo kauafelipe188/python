@@ -292,3 +292,30 @@
 #     print("nao é ano bissexto")
 
 # atividade38
+# while True:
+#     codigo = str(input("Olá "))
+#     if codigo == "não":
+#         break
+#     print("voce quer continuar? ")
+# print("okay, até a proxima")
+
+# atividade39
+# from math import sqrt
+# while True:    
+#     numero = int(input("escreva um numero inteiro: "))
+#     if numero < 0:
+#         print("impossivel")
+#     elif numero > 0 :
+#         print(sqrt(numero))
+#     elif numero == 0 :
+#         break
+
+# atividade40
+numero = 5
+print("Contagem regressiva!")
+while True:
+    print(numero)
+    numero = numero - 1
+    if numero == 0:
+        break
+print("Agora!")
