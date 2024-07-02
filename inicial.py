@@ -63,10 +63,30 @@
 # print(numero ** 2)
 # print ("progama encerrado, obrigado")
 
-while True:
-    codigo = input("Por favor insira o pin: ")
-    if codigo == "1234":
-        break
-    print("errado, tente de novo")
+# while True:
+#     codigo = input("Por favor insira o pin: ")
+#     if codigo == "1234":
+#         break
+#     print("errado, tente de novo")
 
-print("PIN correto, obrigado")
+# print("PIN correto, obrigado")
+# tentativas = 0
+# while True:
+#     codigo = input("Por favor insira o pin: ")
+#     tentativas += 1
+#     if codigo == "1234":
+#         sucesso = True
+#         break
+#     if tentativas == 3:
+#         sucesso = False
+#         break
+#         print("PIN correto, obrigado")
+#     else:
+#         print("acabou as tentativas, obrigado")
+
+numero = int(input("coloque um numero: "))
+while numero < 10:
+    print(numero)
+    numero += 1
+
+print("execução finaçizada")

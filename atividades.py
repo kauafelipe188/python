@@ -311,11 +311,54 @@
 #         break
 
 # atividade40
-numero = 5
-print("Contagem regressiva!")
-while True:
-    print(numero)
-    numero = numero - 1
-    if numero == 0:
-        break
-print("Agora!")
+# numero = 5
+# print("Contagem regressiva!")
+# while True:
+#     print(numero)
+#     numero = numero - 1
+#     if numero == 0:
+#         break
+# print("Agora!")
+
+# atividade41
+# senha = input("por favor, crie uma senha: ")
+# while True:
+#     confirmacao_senha = input("digite a senha novamente: ")
+#     if confirmacao_senha == senha:
+#         print("senha confirmada com sucesso!")
+#         break
+#     else:
+#         print("senha errada. Tente novamente.")
+
+# atividade42
+# codigo = "4321"
+# tentativas = 0
+# while True:
+#     pin = input("Digite o código PIN: ")
+#     if pin == codigo:
+#         print("Acesso liberado")
+#         break
+#     else:
+#         tentativas += 1
+#         print("Código incorreto. Tente novamente")
+
+# print(f"Você tentou {tentativas} vezes.")
+
+# atividade43
+# ano = int(input("Digite o ano: "))
+# def bissexto(ano):
+#     if ano % 4 == 0 and (ano % 100 != 0 or ano % 400 == 0):
+#         return True
+#     else:
+#         return False
+# pbissexto = ano + 1
+# while not bissexto(pbissexto):
+#     pbissexto += 1
+# print(f"O próximo ano bissexto é {pbissexto}.")
+
+# atividade44
+# numero = 0
+# while numero < 30:
+#     print(numero)
+#     numero += 2
+# print("execução finaçizada")
