@@ -362,3 +362,21 @@
 #     print(numero)
 #     numero += 2
 # print("execução finaçizada")
+
+# atividade45
+# print("Você está pronto? ")
+# numero = int(input("Por favor, digite um número: "))
+# while True:
+#     numero = numero - 1
+#     if numero == 0:
+#         break
+#     print(numero)
+# print("AGORA!")
+
+# atividade46
+# numero = int(input("Digite um número: "))
+# if numero > 1:
+#     for i in range(1, numero):
+#         print(i)
+
+# atividade47
