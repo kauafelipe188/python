@@ -84,9 +84,20 @@
 #     else:
 #         print("acabou as tentativas, obrigado")
 
-numero = int(input("coloque um numero: "))
-while numero < 10:
-    print(numero)
-    numero += 1
+# numero = int(input("coloque um numero: "))
+# while numero < 10:
+#     print(numero)
+#     numero += 1
 
-print("execução finaçizada")
+# print("execução finaçizada")
+
+# import re
+
+# print(re.search("[A-Z]", "Senha"))
+# print(re.search("[a-z]", "Senha"))
+# print(re.search("[0-9]", "Senha"))
+
+import random
+
+numero_secreto = random.randint(1,100)
+print(numero_secreto)

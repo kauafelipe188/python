@@ -380,3 +380,28 @@
 #         print(i)
 
 # atividade47
+# numero = int(input("Digite um numero como limite: "))
+# numeroinicial = 1
+# while numeroinicial <= numero:
+#     print(numeroinicial)
+#     numeroinicial *= 2
+
+# atividade48
+# numero = int(input("Digite um número como limite: "))
+# base = int(input("Digite a base que será multiplicada: "))
+# numeroinicial = 1
+# while numeroinicial <= numero:
+#     print(numeroinicial)
+#     numeroinicial *= base
+
+# atividade49
+# nao tem
+
+# atividade50
+# soma = 0
+# while soma <= 100:
+#     numero = int(input("Digite um número: "))
+#     soma += numero
+# print("A soma é:", soma)
+
+# atividade51
