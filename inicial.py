@@ -97,7 +97,7 @@
 # print(re.search("[a-z]", "Senha"))
 # print(re.search("[0-9]", "Senha"))
 
-import random
+# import random
 
-numero_secreto = random.randint(1,100)
-print(numero_secreto)
+# numero_secreto = random.randint(1,100)
+# print(numero_secreto)

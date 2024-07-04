@@ -405,3 +405,35 @@
 # print("A soma é:", soma)
 
 # atividade51
+# import re
+# def senhacerto(senha):
+#     if len(senha) < 8:
+#         return False
+#     if not re.search("[A-Z]", senha):
+#         return False
+#     if not re.search("[a-z]", senha):
+#         return False
+#     if not re.search("[0-9]", senha):
+#         return False
+#     return True
+# while True:
+#     senha = input("Digite uma senha: ")
+#     if senhacerto(senha):
+#         print("Senha válida!")
+#     else:
+#         print("Senha inválida. A senha deve ter pelo menos 8 caracteres, conter pelo menos uma letra maiúscula, uma letra minúscula e um número.")
+
+# atividade52
+# import random
+# numero = random.randint(1, 100)
+# while True:
+#     tentativa = int(input("adivinhe o número: "))
+#     if tentativa < numero:
+#         print("o número secreto é maior do que a tentativa.")
+#     elif tentativa > numero:
+#         print("o número secreto é menor do que a tentativa.")
+#     else:
+#         print("você adivinhou o número!")
+#         break 
+
+# atividade53
