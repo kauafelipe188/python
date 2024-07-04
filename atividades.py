@@ -437,3 +437,20 @@
 #         break 
 
 # atividade53
+# saldo = 500
+# def saque_valido(valor, saldo):
+#     if valor % 10 != 0:
+#         print("O valor de saque deve ser múltiplo de 10.")
+#         return False
+#     elif valor > saldo:
+#         print(f"O valor de saque não esta disponivel")
+#         return False
+#     return True
+# while True:
+#     try:
+#         valor_saque = int(input("Insira o valor de saque: R$ "))
+#         if saque_valido(valor_saque, saldo):
+#             print(f"Saque de R$ {valor_saque} realizado com sucesso!")
+#             break
+#     except ValueError:
+#         print("Por favor, insira um valor numérico válido.")
