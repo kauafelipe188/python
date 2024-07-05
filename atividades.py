@@ -78,6 +78,40 @@
 # print(f"temperatura em Fahrenheit é: {fahrenheit:.2f}°F")
 
 # atividade15
+# atividade15/3
+# calculando a media de notas
+# nota1 = int(input("digite a 1° nota: "))
+# nota2 = int(input("digite a 2° nota: "))
+# nota3 = int(input("digite a 3° nota: "))
+# nota4 = int(input("digite a 4° nota: "))
+# media = (nota1 + nota2 + nota3 + nota4) / 4
+# print("a media das notas é:", media)
+# atividade15/4
+# verificando se um numero é par ou não
+# numero = int(input("digite um numero: "))
+# if numero % 2 == 0:
+#     print("o numero é par")
+# else:
+#     print("o numero é impar")
+# atividade15/5
+# encontrar o maior numero da lista
+# def encontrar_maior(lista):
+#     maior = lista[0]
+#     for numero in lista[1:]:
+#         if numero > maior:
+#             maior = numero
+#     return maior
+# numeros = [3, 5, 2, 9, 1, 4]
+# print(f"O maior número é: {encontrar_maior(numeros)}")
+# atividade15/11
+# def ordenar_tarefas_por_prioridade(tarefas):
+#     tarefas_ordenadas = sorted(tarefas, key=lambda tarefa: tarefa[1], reverse=True)
+#     return tarefas_ordenadas
+# tarefas = [("Lavar o banheiro", 3), ("Estudar algoritmos", 5), ("jogar volei", 7)]
+# tarefas_ordenadas = ordenar_tarefas_por_prioridade(tarefas)
+# print("Tarefas ordenadas por prioridade:")
+# for tarefa in tarefas_ordenadas:
+#     print(tarefa)
 
 # atividade16
 # numero = int(input("digite um numero: "))
@@ -470,9 +504,24 @@
 # print("#"* len(string))
 
 # atividade56
-string = input("digite uma string: ")
-while len(string) != 0:
-    traços = "-" * len(string)
-    print(string)
-    print(traços)
-    string = input("digite uma string: ")
+# string = input("digite uma string: ")
+# while len(string) != 0:
+#     traços = "-" * len(string)
+#     print(string)
+#     print(traços)
+#     string = input("digite uma string: ")
+
+# atividade57
+# string = input("digite uma string: ")
+# stringcom20 = string.rjust(20, "*")
+# print(stringcom20)
+
+# atividade58
+string = input("Digite uma palavra: ")
+tamanhoquadro = 30
+lenpalavra = len(string)
+espaço1 = (tamanhoquadro - 2 - lenpalavra) // 2
+espaço2 = tamanhoquadro - 2 - lenpalavra - espaço1
+print('*' * tamanhoquadro)
+print('*' + ' ' * espaço1 + string + ' ' * espaço2 + '*')
+print('*' * tamanhoquadro)
