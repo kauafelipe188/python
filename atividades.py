@@ -466,6 +466,13 @@
 #         print("as palavras sao diferentes, faça de novo")
 
 # atividade55
-string = str(input("coloque uma palavra com o numero de caracteres escolhido"))
-print(string)
-print("#"* len(string))
+# string = str(input("coloque uma palavra com o numero de caracteres escolhido: "))
+# print("#"* len(string))
+
+# atividade56
+string = input("digite uma string: ")
+while len(string) != 0:
+    traços = "-" * len(string)
+    print(string)
+    print(traços)
+    string = input("digite uma string: ")
