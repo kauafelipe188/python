@@ -456,11 +456,16 @@
 #         print("Por favor, insira um valor numérico válido.")
 
 # atividade54
-while True:
-    palavra1 = input("digite a primeira palavra: ")
-    palavra2 = input("digite a segunda palavra: ")
-    if len(palavra1) == len(palavra2):
-        print("as palavras tem a mesma quantidade de letras")
-        break
-    else:
-        print("as palavras sao diferentes, faça de novo")
+# while True:
+#     palavra1 = input("digite a primeira palavra: ")
+#     palavra2 = input("digite a segunda palavra: ")
+#     if len(palavra1) == len(palavra2):
+#         print("as palavras tem a mesma quantidade de letras")
+#         break
+#     else:
+#         print("as palavras sao diferentes, faça de novo")
+
+# atividade55
+string = str(input("coloque uma palavra com o numero de caracteres escolhido"))
+print(string)
+print("#"* len(string))

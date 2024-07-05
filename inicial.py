@@ -101,3 +101,23 @@
 
 # numero_secreto = random.randint(1,100)
 # print(numero_secreto)
+
+# palvra = "banana"
+# print(palvra *3)
+
+# string = str(input("entrada: "))
+# print(string)
+# print("-"* len(string))
+
+# palavra1 = input("digite a primeira palavra: ")
+# palavra2 = input("digite a segunda palavra: ")
+# if len(palavra1) > len(palavra2):
+#     print(palavra1)
+# elif len(palavra1) < len(palavra2):
+#     print(palavra2)
+
+# string = input("por favor digite uma string: ")
+# print(string[0])
+# print(string[1])
+# print(string[2])
+# print(string[-1])
