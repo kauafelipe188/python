@@ -517,11 +517,12 @@
 # print(stringcom20)
 
 # atividade58
-string = input("Digite uma palavra: ")
-tamanhoquadro = 30
-lenpalavra = len(string)
-espaço1 = (tamanhoquadro - 2 - lenpalavra) // 2
-espaço2 = tamanhoquadro - 2 - lenpalavra - espaço1
-print('*' * tamanhoquadro)
-print('*' + ' ' * espaço1 + string + ' ' * espaço2 + '*')
-print('*' * tamanhoquadro)
+# string = input("Digite uma palavra: ")
+# tamanhoquadro = 30
+# lenpalavra = len(string)
+# espaço1 = (tamanhoquadro - 2 - lenpalavra) // 2
+# espaço2 = tamanhoquadro - 2 - lenpalavra - espaço1
+# print('*' * tamanhoquadro)
+# print('*' + ' ' * espaço1 + string + ' ' * espaço2 + '*')
+# print('*' * tamanhoquadro)
+

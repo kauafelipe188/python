@@ -121,3 +121,25 @@
 # print(string[1])
 # print(string[2])
 # print(string[-1])
+
+# while True :
+#     numero = int(input("por favor, digite um numero"))
+#     if numero == -1:
+#         break
+#     while numero > 0:
+#         print(numero)
+#         numero -= 1
+
+# def message():
+#     print("essa é a minha função")
+#     message()
+
+# def sete_irmãos():
+#     print("A")
+#     print("B")
+#     print("C")
+#     print("D")
+#     print("E")
+#     print("F")
+#     print("G")
+# sete_irmãos()
