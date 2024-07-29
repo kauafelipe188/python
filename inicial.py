@@ -143,3 +143,91 @@
 #     print("F")
 #     print("G")
 # sete_irmãos()
+# def cumprimentar(nome):
+#     print("Olá, " + nome + "!")
+
+# def cumprimentar_varias(nome, vezes):
+#     while vezes > 0:
+#         cumprimentar(nome)
+#         vezes -= 1
+# cumprimentar_varias("kaua", 5)
+
+# def minha_soma(a,b):
+#     return a + b
+# resultado = minha_soma(6, 7)
+# print(resultado)
+
+# numeros = []
+# numeros.append(10)
+# numeros.append(5)
+# numeros.append(3)
+# print(numeros)
+
+# numero_de_itens = int(input("Quantos itens você quer adicionar? "))
+# lista = []
+# contador = 0
+# while contador < numero_de_itens:
+#     valor = input(f"Digite o valor {contador + 1}: ")
+#     lista.append(valor)
+#     contador += 1
+# contador_impressao = 0
+# print("Valores adicionados à lista:")
+# while contador_impressao < len(lista):
+#     print(lista[contador_impressao])
+#     contador_impressao += 1
+# lista=[]
+
+# def imprimir_lista():
+#     print("Lista atual:",lista)
+# def adicionar_item():
+#     if len(lista)==0:
+#         novo_item=1
+#     else:
+#         novo_item=lista[-1]+1
+#     lista.append(novo_item)
+#     imprimir_lista()
+# def remover_item():
+#     if len(lista)>0:
+#         lista.pop()
+#     imprimir_lista()
+# def main():
+#     while True:
+#         imprimir_lista()
+#         escolha=input("Digite 'Adicionar' para adicionar um item, 'Remover' para remover um item ou 'Sair' para encerrar o programa: ").strip().lower()
+#         if escolha=='adicionar':
+#             adicionar_item()
+#         elif escolha=='remover':
+#             remover_item()
+#         elif escolha=='sair':
+#             print("Programa encerrado.")
+#             break
+#         else:
+#             print("Escolha inválida. Tente novamente.")
+# main()
+
+# recebe uma lista como argumento
+# show_talentos = [45, 44, 36, 39, 40 ]
+# def mediana (minha_lista: list):
+#     ordenada = sorted(minha_lista)
+#     centro_lista = len(ordenada) // 2
+#     return ordenada[centro_lista]
+
+# print("a mediana é" , mediana(show_talentos))  # imprime 39.0
+
+# idades = [1, 56 ,34, 22, 5, 77, 5]
+# print("a mediana é" , mediana(idades))
+
+# retorna uma lista
+# def entrada_numeros():
+#     numeros = []
+#     while True:
+#         entrada_usuario = input ("POr favor, digite um numero inteiro, deixe em branco para sair")
+#         if len(entrada_usuario) == 0:
+#             break
+#         numeros.append(int(entrada_usuario))
+#         return numeros
+
+# def tamanho_lista(lista):
+#     return len(lista)
+# print(tamanho_lista([1, 2, 3, 4, 5]))
+
