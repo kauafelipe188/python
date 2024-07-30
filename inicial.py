@@ -231,3 +231,21 @@
 #     return len(lista)
 # print(tamanho_lista([1, 2, 3, 4, 5]))
 
+# for i in range:(5) #com 1 numero
+# print(i) #imprime 0, 1, 2, 3, 4, 5
+
+# for i in range:(3, 7)#com 2 numeros
+# print(i) #imprime 3, 4, 5, imprime os numero do intervalo
+
+# for i in range:(1, 9, 2) #com 3 numeros
+# print(i) #imprime 1, 3, 5, 7, imprime os numeros de 2 em 2
+
+# for i in range:(1, 9, -1)
+# print(i) #imprime 9, 8, 7, 6, 5 ... de -1 em -1
+
+def imprimir_numeros(N):
+    for i in range(-N, N + 1):
+        if i != 0:
+            print(i)
+N = int(input("Digite um número positivo: "))
+imprimir_numeros(N)
