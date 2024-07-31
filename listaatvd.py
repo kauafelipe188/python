@@ -41,3 +41,39 @@
 #             lista_de_pares.append(numero)
 #     return lista_de_pares
 # print(numeros_pares([1, 2, 3, 4, 5]))
+
+# atividade8
+# def lista_soma(primeira_lista, segunda_lista):
+#     lista_somada = []
+#     for indice in range(len(primeira_lista)):
+#         soma_dos_itens = primeira_lista[indice] + segunda_lista[indice]
+#         lista_somada.append(soma_dos_itens)
+#     return lista_somada
+# print(lista_soma([1, 2, 3, 4], [5, 6, 7, 8]))
+
+# atividade9
+# def sem_vogal(texto):
+#     vogais = "aeiou"
+#     texto_sem_vogal = ""
+#     for caractere in texto:
+#         if caractere not in vogais:
+#             texto_sem_vogal += caractere
+#     return texto_sem_vogal
+# print(sem_vogal("xadrez"))
+
+# atividade10
+# def jogue_o_jogo(mesa, x, y, caractere):
+#     mesa[x][y] = caractere
+#     return mesa
+# mesa = [[' ' for _ in range(3)] for _ in range(3)]
+# jogue_o_jogo(mesa, 1, 1, 'X')
+# for linha in mesa:
+#     print(linha)
+
+# jogue_o_jogo(mesa, 2, 2, 'X')
+# for linha in mesa:
+#     print(linha)
+
+# jogue_o_jogo(mesa, 0, 0, 'X')
+# for linha in mesa:
+#     print(linha)

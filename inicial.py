@@ -243,9 +243,62 @@
 # for i in range:(1, 9, -1)
 # print(i) #imprime 9, 8, 7, 6, 5 ... de -1 em -1
 
-def imprimir_numeros(N):
-    for i in range(-N, N + 1):
-        if i != 0:
-            print(i)
-N = int(input("Digite um número positivo: "))
-imprimir_numeros(N)
+# def imprimir_numeros(N):
+#     for i in range(-N, N + 1):
+#         if i != 0:
+#             print(i)
+# N = int(input("Digite um número positivo: "))
+# imprimir_numeros(N)
+
+# minha_lista = [1, 2, 3, 1, 4, 5, 1, 6]
+# print(minha_lista.count(1))
+
+# minha_string = "oi"
+# nova_string = minha_string.replace("oi", "ola")
+# print(nova_string) #imprime "ola" #substituiu a palavra "oi"
+
+# def mais_caracteres(texto):
+#     caractere_mais_frequente = ""
+#     max_contagem = 0
+#     for caractere in texto:
+#         contagem_atual = texto.count(caractere)
+#         if contagem_atual > max_contagem:
+#             max_contagem = contagem_atual
+#             caractere_mais_frequente = caractere
+#     return caractere_mais_frequente
+# print(mais_caracteres("abracadabra"))
+# print(mais_caracteres("banana"))
+# print(mais_caracteres("teste"))
+# meu_dicionario = {}
+# meu_dicionario["apina"] = "macaco"
+# meu_dicionario["banaani"] = "banana"
+# meu_dicionario["cembalo"] = "cravo"
+# print(meu_dicionario)
+# print(meu_dicionario["apina"]) #imprime macaco
+# palavra = input("por favor, digite uma palavra: ")
+# if palavra in meu_dicionario:
+#     print("tradução", meu_dicionario[palavra])
+# else:
+#     print("palavra não encontrada")
+
+# meu_dicionario = {}
+# meu_dicionario["apina"] = "macaco"
+# meu_dicionario["banaani"] = "banana"
+# meu_dicionario["cembalo"] = "cravo"
+# for chave in meu_dicionario:
+#     print("chave", chave) 
+#     print("chave", meu_dicionario[chave])
+
+# lista_palavras = [
+#   "banana", "leite", "cerveja", "queijo", "leite azedo", "suco", "linguiça",
+#   "tomate", "pepino", "manteiga", "margarina", "queijo", "linguiça",
+#   "cerveja", "leite azedo", "leite azedo", "manteiga", "cerveja", "chocolate"
+# ]
+# def contagens(minha_lista):
+#     palavras = {}
+#     for palavra in minha_lista:
+#         if palavra not in palavras:
+#             palavras[palavra] = 0
+#         palavras[palavra] += 1
+#     return palavras
+# print(contagens(lista_palavras)) 
