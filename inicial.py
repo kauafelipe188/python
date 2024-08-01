@@ -302,3 +302,5 @@
 #         palavras[palavra] += 1
 #     return palavras
 # print(contagens(lista_palavras)) 
+
+staff = {}

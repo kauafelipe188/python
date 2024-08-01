@@ -69,11 +69,79 @@
 # jogue_o_jogo(mesa, 1, 1, 'X')
 # for linha in mesa:
 #     print(linha)
-
 # jogue_o_jogo(mesa, 2, 2, 'X')
 # for linha in mesa:
 #     print(linha)
-
 # jogue_o_jogo(mesa, 0, 0, 'X')
 # for linha in mesa:
 #     print(linha)
+
+# atividade11
+# def adicionar_contato(contatos, nome, numero):
+#     contatos[nome] = numero
+# def buscar_contato(contatos, nome):
+#     return contatos.get(nome, "Contato não encontrado")
+# def listar_contatos(contatos):
+#     return "\n".join(f"{nome} {numero}" for nome, numero in contatos.items())
+# def executar():
+#     contatos = {}
+#     while True:
+#         comando 
+))
+#         if comando == 1:
+#             nome = input("nome: ")
+#             print(buscar_contato(contatos, nome))
+#         elif comando == 2:
+#             nome = input("nome: ")
+#             numero = input("numero: ")
+#             adicionar_contato(contatos, nome, numero)
+#         elif comando == 3:
+#             print(listar_contatos(contatos))
+#         else:
+#             print("comando invalido")
+#             if comando == 0:
+#                 break
+# if __name__ == "__main__":
+#     executar()
+
+# atividade12
+def adicionar_contato(contatos, nome, numero):
+    if nome in contatos:
+        if type(contatos[nome]) is list:
+            contatos[nome].append(numero)
+        else:
+            contatos[nome] = [contatos[nome], numero]
+    else:
+        contatos[nome] = numero
+def buscar_contato(contatos, nome):
+    return contatos.get(nome, "Contato não encontrado")
+def listar_contatos(contatos):
+    lista = []
+    for nome, numero in contatos.items():
+        if type(numero) is list:
+            for num in numero:
+                lista.append(f"{nome} {num}")
+        else:
+            lista.append(f"{nome} {numero}")
+    return "\n".join(lista)
+def executar():
+    contatos = {}
+    while True:
+        comando = int(input("comando (1 busca, 2 adiciona, 3 lista, 0 sai): "))
+        if comando == 1:
+            nome = input("nome: ")
+            print(buscar_contato(contatos, nome))
+        elif comando == 2:
+            nome = input("nome: ")
+            numero = input("numero: ")
+            adicionar_contato(contatos, nome, numero)
+        elif comando == 3:
+            print(listar_contatos(contatos))
+        elif comando == 0:
+            break
+        else:
+            print("comando invalido")
+if __name__ == "__main__":
+    executar()
+
+# atividade13
